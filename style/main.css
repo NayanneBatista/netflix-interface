@@ -49,8 +49,8 @@ header nav a:hover {
 .filme-principal {
     font-size: 16px;
     background: url('../img/capa-fundo.jpg');
-    height: 900px;
-    background-size: cover;
+    height: 600px;
+    background-size:cover;
 
     display: flex;
     flex-direction: column;
@@ -82,7 +82,7 @@ header nav a:hover {
 }
 
 .botao:hover {
-    background-color: white;
+    background-color:white;
     color: black;
 }
 
@@ -97,4 +97,10 @@ header nav a:hover {
 
 .filme-principal .container {
     width: 50%;
+}
+
+.box-filme {
+    height: 100%;
+    width: 100%;
+    display: block;
 }
